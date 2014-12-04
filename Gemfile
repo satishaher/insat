@@ -8,6 +8,8 @@ gem 'sqlite3',   group: :development
 
 gem 'pg',		group: :production
 
+gem 'thin'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
