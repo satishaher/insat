@@ -1,4 +1,8 @@
 class MoviesController < ApplicationController
+  
+  # Checks whether User is authenticated before processing each action
+  before_filter :authenticate_user! 
+
   before_action :set_movie, only: [:show, :edit, :update, :destroy]
 
   # GET /movies

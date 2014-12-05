@@ -1,11 +1,16 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :movies
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'movies#index'
+  authenticated :user do 
+    root 'movies#index', as: :authenticated_root
+  end
+
+  root 'staticpages#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
