@@ -7,9 +7,10 @@ gem 'rails', '4.1.6'
 gem 'sqlite3',   group: :development
 
 gem 'pg',		group: :production
-
-gem 'thin'
-
+# thin server for production
+gem 'thin',		group: :production
+# If you are using Ruby on Rails and your project was created on Windows, then you may find that this line is already in your Gemfile
+gem 'tzinfo-data'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
