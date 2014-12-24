@@ -6,12 +6,16 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+	ruby 1.9.3p125
 
 * System dependencies
 
 * Configuration
+	you have to set mailer configurations
 
 * Database creation
+	rake db:create
+	rake db:migrate
 
 * Database initialization
 
@@ -20,6 +24,7 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+	This project is deployed on heroku at http://insat.herokuapp.com/ 
 
 * ...
 
