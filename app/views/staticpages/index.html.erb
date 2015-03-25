@@ -1,2 +1,7 @@
-<h1 align="center">Static Page</h1>
-<p align="center"><%= ENV['HEADER_TITLE'] %></p>
+<h2 class="quote ultra">Quotes Page</h2>
+<p><%= ENV['HEADER_TITLE'] %></p>
+
+<% @quotes.each do |quote| %>
+	<p class="quote <%= quote.txtclass %>"><%= quote.maintext %></p>
+<% end %>
+

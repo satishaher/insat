@@ -1,0 +1,73 @@
+/*@import url(http://www.princexml.com/fonts/larabie/index.css) 	all;*/
+@import url(http://fonts.googleapis.com/css?family=Stalemate);
+@import url(http://fonts.googleapis.com/css?family=Bevan);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Chewy);
+
+@import url(http://fonts.googleapis.com/css?family=Corben:400,700);
+/*@import url(http://fonts.googleapis.com/css?family=philosopher);*/
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(http://fonts.googleapis.com/css?family=Ultra);
+@import url(http://fonts.googleapis.com/css?family=Philosopher:400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+p.quote{
+	width: 65%;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+h2.quote{
+	width: 65%;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+.berkshire{
+	font-family: 'Berkshire Swash', cursive;
+	/*color: blue;*/
+
+}
+.corben{
+	font-family: 'Corben', cursive;
+	/*color:  red;*/
+	
+}
+.sigmar{
+	font-family: Sigmar One;
+	/*color: blue;*/
+	
+}
+.ultra{
+	font-family: 'Ultra', serif;
+	/*color: blue;*/
+	
+}
+
+.bevan{
+	font-family: Bevan, cursive;
+	/*color: blue;*/
+	
+}
+.chewy{
+	font-family: Chewy, cursive;
+	/*color: blue;*/
+	
+}
+.philosopher{
+	font-family: Philosopher, cursive;
+	/*color: blue;*/
+	
+}
+.stalemate{
+	font-family: Stalemate, cursive;
+	/*color: blue;*/
+	
+}
+.oswald{
+	font-family: Oswald, cursive;
+	/*color: blue;*/
+	
+}

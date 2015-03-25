@@ -3,6 +3,7 @@ class CreateQuotes < ActiveRecord::Migration
     create_table :quotes do |t|
       t.string :name
       t.string :maintext
+      t.string :txtclass
       t.string :by
       t.float :rating
       t.references :user
