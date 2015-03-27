@@ -1,7 +1,22 @@
-<h2 class="quote ultra">Quotes Page</h2>
-<p><%= ENV['HEADER_TITLE'] %></p>
+<!-- <h2 class="quote ultra">Quotes Page</h2> -->
+<p align="center">hh<%= ENV['HEADER_TITLE'] %></p>
 
-<% @quotes.each do |quote| %>
-	<p class="quote <%= quote.txtclass %>"><%= quote.maintext %></p>
-<% end %>
+<div class="outer">
+	<div class="middle">
+		<div class="inner">
 
+			<%# @quotes.each do |quote| %>
+			<div class="quote"><%= @quote.maintext %></div>
+			<%# end %>
+
+		</div>
+	</div>
+</div>
+
+<script>
+
+	var allFonts = ['Berkshire Swash', 'Delius Swash Caps', 'Lily Script One', 'Sofia', 'Merienda One', 'Salsa', 'Aclonica']
+
+	$(".quote").css("font-family", allFonts[Math.floor(Math.random() * allFonts.length)])
+
+</script>
